@@ -1,2 +1,6 @@
 *.pyc
 #don't need pyc files
+
+settings.py
+
+devdb.db
