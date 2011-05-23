@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Peter Conerly</title>
+		<link type="text/css" rel="stylesheet" href="static/style.css">
+	</head>
+	<body>
+		<div id="header">
+			<h1>Peter Conerly</h1>
+		</div>
+		<div id="content">
+			<div id="statement"><h2>Statement</h2>
+				<p>I am currently working as a Software Developer for <a href="http://tagcreativestudio.com/">Tag Creative Studio</a>, an awesome web design/dev firm in Seattle!  I am currently studying Python & Django through the UW, on my own, and as part of my job.  I'm interested in networking with others in the field!</p>
+			</div>
+			<div id="presence"><h2>Web Presence</h2>
+				<ul>
+					<li><a href="https://github.com/pconerly">Github.com/pconerly</a></li>
+					<li><a href="http://projecteuler.net">Project Euler</a> <p class="pc-description">description</p><p class="pc-expando">From their website: "Project Euler is a series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve. Although mathematics will help you arrive at elegant and efficient methods, the use of a computer and programming skills will be required to solve most problems."  The image below shows how many I've solved!</p><p><img src="http://projecteuler.net/profile/civilian.png"/></p></li>
+				</ul>
+			</div>
+			<div id="projects" ><h2>My Projects</h2>  <!##class="pc-description">
+				<ul>
+					<li><a href="http://imography.com">IMography</a> <p class="pc-description">description</p><p class="pc-expando">Short for "Instant-Message-ography". Users can upload their AIM (Aol Instant Messenger) log files and get a graph of the words exchange per day.  I was inspired to do this by my own logs -over four years worth- which I wanted meta-data from. An example follows (<a href="http://imography.com/data/aeaf83f6846511690202c1395f662945/">more detail on this example</a>):</p></li>
+				</ul>
+				<img src="http://imography.com/static/images/aeaf83f6846511690202c1395f662945.png"/>
+				<ul><li><a href="http://block115385-39q.blueboxgrid.com:8000">Development server for Internet Programming in Python class</a> <p class="pc-description">description</p><p class="pc-expando">This server will usually not be running since it is only a development server.  When it is up, it will have small, dynamic and probably silly projects on it.</p></li>
+
+				</ul>
+			</div>
+			<div id="background"><h2>Background</h2>
+				<p>In May of 2009 I graduated from <a href="http://www.wpi.edu/">Worcester Polytechnic Institute</a> with a B.S. in Biochemistry (with Honors and with a minor in Entrepreneurship).  In early 2010 I worked at the Fred Hutchinson Cancer Research Center in Dr. Shou's lab.  I had the opportunity to program with R (the statistical language) and LabView (to automate a microscope).  I hadn't programmed in some years, and I was reminded how much fun it was!  I will always love biology, but I decided to pursue computer science as a career.</p>
+				<p>Since then I left the 'Hutch' and was contracting at Google with their Maps team.  I provided internal tech support, which includes tracking and reporting bugs to the software engineers.</p>
+				<p>In Februrary 2011 I got fierce position at <a href="http://tagcreativestudio.com/">Tag Creative Studio</a> and am ramping up my skills there!</p>
+				<p>The <a href="http://www.pce.uw.edu/">UW Professional & Continuing Education department</a> provides <a href="http://www.pce.uw.edu/prog.aspx?id=4189">Certification in Python programming</a> which I am enrolled in.</p>
+				<p>Contact info: Email: pconerly at gmail dot com  Cell: 503-758-9929</p>
+		</div>
+		<script src="static/utility.js"></script>
+		<script type="text/javascript">
+
+			// get all the expando containers by a class name
+			var expandos = getElementsByClass('pc-expando');
+
+			for (var i = 0; i < expandos.length; i++) {
+				var expando = expandos[i];
+				addClass(expando, 'pc-expando-off');
+			}
+			
+			var headers = getElementsByClass('pc-description');
+			
+			for (var i = 0; i < headers.length; i++) {
+				var header = headers[i];
+				addEventSimple(header, 'click', toggleExpando);
+			}
+			
+			function toggleExpando () {
+				var expando = this.nextSibling;
+				if (hasClass(expando, 'pc-expando-on')) {
+					removeClass(expando, 'pc-expando-on');
+					addClass(expando, 'pc-expando-off');
+				} else {
+					removeClass(expando, 'pc-expando-off');
+					addClass(expando, 'pc-expando-on');
+				}
+			}
+		</script>
+	</body>
+</html>
