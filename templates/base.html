@@ -17,15 +17,25 @@
     <!--<link rel="stylesheet" href="{{ MEDIA_URL }}css/960.css" type="text/css" />-->
     <link rel="stylesheet" href="{{ MEDIA_URL }}css/reset.css" type="text/css" />
     <link rel="stylesheet" href="{{ MEDIA_URL }}css/global.css" type="text/css" />
+	<script src="{{ MEDIA_URL }}js/jquery-1.7.min.js" type="text/javascript" ></script>
+		<script src="{{ MEDIA_URL }}js/jquery.tmpl.min.js" type="text/javascript" ></script>
+	<script src="{{ MEDIA_URL }}js/main.js" type="text/javascript" ></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			
+			changecolor("color1");
+			
+		});
+	
+	</script>
     {% block extra_head %}{% endblock %}
-
 </head>
 <body id="{% block body_id %}{% endblock %}">
 
 {% if settings.SITE_TITLE or settings.SITE_TAGLINE %}
-<div id="grid-header">
+<div id="grid-header" class="color1 backgroundcolor">
     {% if settings.SITE_TITLE %}
-    <h1>{{ settings.SITE_TITLE }}</h1>
+    <h1 class="color2 textcolor">{{ settings.SITE_TITLE }}</h1>
     {% endif %}
     {% if settings.SITE_TAGLINE %}
     <h2>{{ settings.SITE_TAGLINE }}</h2>
@@ -43,7 +53,7 @@
         {% page_menu "pages/menus/tree.html" %}
     </div>
 -->
-    <div id="grid-middle" class="grid_6 grid">
+    <div id="grid-middle" class="grid_9 grid color2 background">
         <div class="gutter">
             <h1>{% block title %}{% endblock %}</h1>
             <div id="breadcrumb-menu">
@@ -54,9 +64,17 @@
             {% block main %}{% endblock %}
         </div>
     </div>
-<!-- 
-    <div id="grid-right" class="grid_3 grid">
 
+    <div id="grid-right" class="grid_3 grid">
+		<ul>
+			<li><input id="color1" value="#333" /> <a onclick="changecolor('color1');"  >Top background color</a></li>
+			<li><input id="color2" value="#333" /> <a onclick="changecolor('color1');"  >Lower background & h1 color</a></li>	
+			<li><input id="color3" value="#333" /> <a onclick="changecolor('color1');"  >Change color</a></li>
+			<li><input id="color4" value="#333" /> <a onclick="changecolor('color1');"  >Change color</a></li>
+			<li><input id="color5" value="#333" /> <a onclick="changecolor('color1');"  >Change color</a></li>
+		</ul>
+	</div>
+<!-- 
         {% include "includes/search.html" %}
         {% block right_panel %}
             {% if "mezzanine.twitter"|is_installed %}
@@ -70,7 +88,6 @@
                 {% trans "View Mobile Site." %}
             </a>
         </p>
-    </div>
 -->
 </div>
 
@@ -81,6 +98,9 @@
             {% page_menu "pages/menus/footer.html" %}
         </div>
     </div>
+</div>
+
+<div id="tmplcss">
 </div>
 
 {% include "includes/footer_scripts.html" %}
