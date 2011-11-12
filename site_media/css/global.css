@@ -74,13 +74,21 @@
     float:right;
     position:relative;
     top: 0px;
-        
+}
+#grid-right a {
+    text-decoration:underline;
 }
 #grid-right li {
     display:block; 
     margin-top:3px;
-    
     }
+#grid-right li .testblock {
+    padding:5px;
+    height:10px;
+    width:10px;
+    float:left;
+}
+
 #grid-bottom {
     background:#666;}
 #grid-bottom .container_12 {
