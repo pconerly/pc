@@ -23,7 +23,9 @@
     font-size:120%; 
     font-weight:normal;
     font-style:italic; 
-    margin:5px;}
+    margin:5px;
+    
+    }
 
 #grid-top {
     background:#ccc; 
@@ -276,6 +278,28 @@ textarea {
 .tagline {
     font-style:italic; 
     font-size:130%;}
+
+/* Blog and Portfolio style */
+h2.blog-post-title {
+    border-top:1px solid #CCC;
+    
+}
+
+h2.blog-post-title a {
+    text-decoration: none;
+}
+
+#portfolio-title {
+    font: normal 1.2em georgia, sans-serif;
+    
+}
+
+
+
+
+
+
+
 
 
 

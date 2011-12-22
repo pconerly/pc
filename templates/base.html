@@ -55,7 +55,7 @@
 -->
     <div id="grid-middle" class="grid_9 grid color2 backgroundcolor">
         <div class="gutter">
-            <h1>{% block title %}{% endblock %}</h1>
+            <h1 class="color1 bordercolor">{% block title %}{% endblock %}</h1>
             <div id="breadcrumb-menu">
                 {% block breadcrumb_menu %}
                     {% page_menu "pages/menus/breadcrumb.html" %}
@@ -97,14 +97,16 @@
 		</ul>
 		{% include "includes/search.html" %}
         {% block right_panel %}
+<!-- 
             {% if "mezzanine.twitter"|is_installed %}
             {% include "twitter/tweets.html" %}
             {% endif %}
+-->
         {% endblock %}
 	</div>
 	
 </div>
-
+<!-- 
 <div id="grid-bottom">
     <div class="container_12 clearfix">
         <div class="grid_3">&nbsp;</div>
@@ -113,7 +115,7 @@
         </div>
     </div>
 </div>
-
+-->
 <div id="tmplcss">
 </div>
 

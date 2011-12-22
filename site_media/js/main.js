@@ -51,6 +51,7 @@ function changecolor(colorNum) {
     
     $("." + colorNum + ".backgroundcolor").css("background-color", color1);    
     $("." + colorNum + ".textcolor").css("color", color1);
+    $("." + colorNum+".bordercolor").css("border-color", color1);
 }
 
 function loadScheme(name) {

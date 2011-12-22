@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>site_media/js/main.js</string>
+	<string>site_media/css/global.css</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -21,6 +21,20 @@
 	<integer>200</integer>
 	<key>metaData</key>
 	<dict>
+		<key>settings.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>59</integer>
+				<key>line</key>
+				<integer>74</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>42</integer>
+		</dict>
 		<key>site_media/css/960.css</key>
 		<dict>
 			<key>caret</key>
@@ -40,14 +54,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>1</integer>
+				<integer>27</integer>
 				<key>line</key>
 				<integer>79</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>65</integer>
+			<integer>54</integer>
 		</dict>
 		<key>site_media/css/reset.css</key>
 		<dict>
@@ -70,7 +84,7 @@
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>23</integer>
+				<integer>45</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -82,14 +96,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>5</integer>
+				<integer>45</integer>
 				<key>line</key>
-				<integer>89</integer>
+				<integer>67</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>58</integer>
+			<integer>32</integer>
 		</dict>
 		<key>templates/pages/menus/primary.html</key>
 		<dict>
@@ -129,10 +143,11 @@
 		<string>templates/twitter/tweets.html</string>
 		<string>templates/pages/menus/primary.html</string>
 		<string>site_media/js/main.js</string>
+		<string>settings.py</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{422, 101}, {738, 762}}</string>
+	<string>{{32, 91}, {941, 787}}</string>
 </dict>
 </plist>

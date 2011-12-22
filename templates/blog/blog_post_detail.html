@@ -74,10 +74,10 @@
     </ul>
 </div>
 {% endif %}
-
+<!-- 
 <div class="rating">{% rating_for blog_post %}</div>
-
-<div class="share">
+-->
+<div class="share color3 backgroundcolor">
 {% set_short_url_for blog_post %}
 {% trans "Share this on" %}:
 <a target=_"blank" href="http://twitter.com/home?status={{ blog_post.short_url|urlencode }}%20{{ blog_post.title|urlencode }}">Twitter</a>
