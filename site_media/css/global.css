@@ -47,7 +47,7 @@
     background:#fff; 
     min-height:100%;}
 #grid-middle img {
-    max-width:400px;}
+    max-width:800px;}
 .gutter {
     padding:0 30px;}
 #grid-left {
@@ -131,10 +131,16 @@
     font-family:Garamond, Georgia, serif;}
 h1 {
     font-size:250%; 
-    border-bottom:1px solid #ccc; 
+    border-bottom:0px solid #ccc; 
     font-weight:normal;}
 h2 {
     font-size:150%;}
+h2.homepage-title {
+    font-size:125%;
+}
+h2.underheadline {
+    margin-bottom:0px;
+}
 h3 {
     font-weight:normal; 
     margin:20px 0 10px;}
@@ -151,7 +157,15 @@ a {color:#336;}
 table {margin-bottom:30px;}
 td, th {padding:4px;}
 p {line-height:150%;}
-li {line-height:130%;}
+p.underheadline {
+    font-style:italic;
+    margin-top: 0px;
+    margin-bottom: 10px;    
+}
+li {
+    line-height:130%;
+    margin-left: 20px;
+    }
 pre, pre *, code, code * {font-family:monospace;}
 pre {padding:15px;}
 
@@ -290,8 +304,8 @@ h2.blog-post-title a {
 }
 
 #portfolio-title {
-    font: normal 1.2em georgia, sans-serif;
-    
+    font: normal 1.3em georgia, sans-serif;
+    border-top:1px solid #CCC;
 }
 
 

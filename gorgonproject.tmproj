@@ -18,22 +18,36 @@
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
-	<integer>200</integer>
+	<integer>244</integer>
 	<key>metaData</key>
 	<dict>
+		<key>mezzanine/core/forms.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>17</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>settings.py</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>59</integer>
+				<integer>1</integer>
 				<key>line</key>
-				<integer>74</integer>
+				<integer>78</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>42</integer>
+			<integer>43</integer>
 		</dict>
 		<key>site_media/css/960.css</key>
 		<dict>
@@ -54,100 +68,86 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>27</integer>
+				<integer>20</integer>
 				<key>line</key>
-				<integer>79</integer>
+				<integer>292</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>54</integer>
-		</dict>
-		<key>site_media/css/reset.css</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>265</integer>
 		</dict>
 		<key>site_media/js/main.js</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>line</key>
-				<integer>45</integer>
+				<integer>54</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>29</integer>
 		</dict>
 		<key>templates/base.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>45</integer>
+				<integer>23</integer>
 				<key>line</key>
-				<integer>67</integer>
+				<integer>102</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>32</integer>
+			<integer>69</integer>
 		</dict>
-		<key>templates/pages/menus/primary.html</key>
+		<key>templates/blog/blog_post_detail.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>5</integer>
+				<integer>40</integer>
 				<key>line</key>
-				<integer>17</integer>
+				<integer>79</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>51</integer>
 		</dict>
-		<key>templates/twitter/tweets.html</key>
+		<key>templates/blog/blog_post_list.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>5</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>30</integer>
+				<integer>94</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>65</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>site_media/css/reset.css</string>
 		<string>site_media/css/960.css</string>
 		<string>templates/base.html</string>
+		<string>mezzanine/core/forms.py</string>
 		<string>site_media/css/global.css</string>
-		<string>templates/twitter/tweets.html</string>
-		<string>templates/pages/menus/primary.html</string>
 		<string>site_media/js/main.js</string>
+		<string>templates/blog/blog_post_list.html</string>
+		<string>templates/blog/blog_post_detail.html</string>
 		<string>settings.py</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{32, 91}, {941, 787}}</string>
+	<string>{{60, 91}, {941, 787}}</string>
 </dict>
 </plist>
