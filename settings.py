@@ -194,6 +194,11 @@ LOGIN_REDIRECT_URL = "/admin/"
 SITE_TITLE = "Peter Conerly"
 SITE_TAGLINE = "Blog and Portfolio"
 
+################
+# ADMIN STUFF #
+################
+RICHTEXT_WIDGET_CLASS = "django.forms.Textarea"
+
 
 ################
 # APPLICATIONS #
@@ -258,7 +263,7 @@ OPTIONAL_APPS = (
     "debug_toolbar",
     "django_extensions",
     PACKAGE_NAME_FILEBROWSER,
-    PACKAGE_NAME_GRAPPELLI,
+    PACKAGE_NAME_GRAPPELLI, #disable grappelli!
 )
 
 DEBUG_TOOLBAR_CONFIG = {"INTERCEPT_REDIRECTS": False}
