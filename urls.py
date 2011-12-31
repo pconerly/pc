@@ -20,6 +20,8 @@ urlpatterns = patterns("",
     #url("^$", direct_to_template, {"template": "index.html"}, name="home"),
     url("^$", home_page, name="home"),
     ("^home-page/$", redirect_to, {'url':'/', 'permanent': True}),
+    #url(r'^$', home_page, name="home"),
+    #url("^/", home_page, name="home"),
     # ADD YOUR OWN URLPATTERNS *ABOVE* THE LINE BELOW.
     # ``mezzanine.urls`` INCLUDES A *CATCH ALL* PATTERN
     # FOR PAGES, SO URLPATTERNS ADDED BELOW ``mezzanine.urls``
